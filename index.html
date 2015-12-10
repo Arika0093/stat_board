@@ -1,0 +1,42 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ja">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="stylesheet" type="text/css" href="board.css">
+	<title>Top Page</title>
+</head>
+<body>
+	<div class="sboard">
+		<div class="sboardinfo">
+			<div class="number">1</div>
+			<div class="line">
+				<div class="linejpn">山手線</div>
+				<div class="lineeng">Yamanote Line</div>
+			</div>
+			<div class="linecolor">m</div>
+			<div class="direc">
+				<div class="direcjpn">目黒・品川・東京方面</div>
+				<div class="direceng">For Meguro , Shinagawa &amp; Tokyo</div>
+			</div>
+		</div>
+		<div class="sboardtopic">
+			<div class="time">12:00</div>
+			<div class="for">新宿・池袋方面</div>
+			<div class="announce">電車がまいります</div>
+		</div>
+	</div>
+	<div class="ui">
+		<label for="num">n番線: <input id="num" /></label><br/>
+		<label for="lnj">路線名: <input id="lnj" /></label><br/>
+		<label for="lne">路線名(英語): <input id="lne" /></label><br/>
+		<label for="col">路線色(RGB, #抜き): <input id="col" /></label><br/>
+		<label for="drj">方面: <input id="drj" /></label><br/>
+		<label for="dre">方面(英語): <input id="dre" /></label><br/>
+		<label for="tim">時間: <input id="tim" /></label><br/>
+		<label for="for">方面(短): <input id="for" /></label><br/>
+		<button onclick="createurl()">Load</button>
+	</div>
+   <script type="text/javascript" src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="board.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+div.sboard{
+	font-family: "meiryo";
+	margin: 4ex 1em;
+	background: #303030;
+	overflow: hidden;
+	width: 520px;
+}
+
+div.sboardinfo{
+	color: #FFFFFF;
+	margin: 10px 10px 0px;
+	background: #606060;
+	overflow: hidden;
+}
+
+.sboardinfo .number{
+	float: left;
+	padding: 0.5ex;
+	font-size: xx-large;
+}
+
+.sboardinfo .line{
+	float: left;
+	text-align: right;
+}
+
+.sboardinfo .line .linejpn{
+	font-size: large;
+	margin: 2ex 0em 0ex 1em;
+}
+
+.sboardinfo .line .lineeng{
+	margin: 0ex 0em 1ex 1em;
+}
+
+.sboardinfo .linecolor{
+	margin: 3ex 1em 0ex;
+	padding: 3ex 0em 3ex 0.5em;
+	float: left;
+	width: 17px;
+	background-color: #33CC66;
+	text-indent: -9999pt;
+}
+
+.sboardinfo .direc{
+	float: left;
+}
+
+.sboardinfo .direc .direcjpn{
+	margin: 3ex 0em 0ex;
+}
+
+.sboardinfo .direc .direceng{
+	margin: 0ex 0em 1ex;
+}
+
+.sboardtopic{
+	margin: 0ex auto 2ex;
+	background: #000000;
+	overflow: hidden;
+	width: 200px;
+}
+
+.sboardtopic .time{
+	float: left;
+	font-size: large;
+	color: #33CC66;
+}
+
+.sboardtopic .for{
+	float: right;
+	text-align: right;
+	font-size: large;
+	color: #FF9900;
+}
+
+.sboardtopic .announce{
+	font-size: large;
+	color: #FF0000;
+	text-decoration: blink;
+	text-align: center;
+	clear: both;
+}
+
+div.ui{
+	margin-left: 2em;
+}
