@@ -17,7 +17,7 @@ function getquery() {
 	var result = [];
 	if (1 < window.location.search.length) {
 		var query = window.location.search.substring(1);
-		var parameters = query.split('&');
+		var parameters = query.split('&&');
 		for (var i = 0; i < parameters.length; i++) {
 			var param = decodeURIComponent(parameters[i]);
 			result[i] = param;
@@ -32,7 +32,7 @@ function createurl() {
 	for(var i = 0; i < ln.length; i++){
 		ref += $("#" + ln[i]).val();
 		if(i != ln.length - 1){
-			ref += "&";
+			ref += "&&";
 		}
 	}
 	this.location.href = ref;
